@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    font-family: 'Adobe Clean', adobe-clean, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+.brand-image {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    margin-left: 0.5em;
+}
+.brand-label {
+    flex-shrink: 0;
+    margin: 0 0 0 0.5em;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(221, 0, 0);
+    font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+}
+.navigate {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    white-space: nowrap;
+    display: inline;
+    margin: 0 0 0 1.5em;
+}
+#SignIn {
+    float: right;
+    margin-right: 1em;
+}
+header{
+    padding: 0.75em 0.1em 1em 0.1em;
+    background-color: white;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;
+}
+.content1 {
+    margin-top: 1%;
+    position: relative;
+    background-image: url(https://www.adobe.com/homepage/media_148f2a129210332a5c2de11f946d81cde4a2d5d38.png?width=2000&format=webply&optimize=medium);
+    background-size: 1500px 800px;
+    overflow: hidden;
+    height: 115vh;
+}
+.content1 h1 {
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    font-size: 2.7em;
+}
+.content1 p {
+    font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+    position: relative;
+    top: 22%;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 499;
+    margin-left: 6em;
+    margin-right: 8em;
+}
+.action-button {
+    position: relative;
+    top: 24%;
+    left: 40%;
+    font: inherit;
+    font-size: 1.25rem;
+    padding: 0.6em;
+    width: 10%;
+    font-weight: 600;
+    background-color: #1473e6;
+    border: 0;
+    color: #FFF;
+    border-radius: 22px;
+    &:focus {
+        outline: 0;
+    }
+}
+.link {
+    position: relative;
+    top: 23%;
+    left: 41%;
+    font-size: 1em;
+    padding: 0.6em;
+    width: 10%;
+    font-weight: 400;
+    color: black;
+    &:focus {
+        outline: 0;
+    }
+}
+#startFree{
+    position: relative;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    width: auto;
+    border-radius: 25px;
+    font-size: medium;
+    z-index: 1;
+    left: 5%;
+    top: 10%;
+    margin-bottom: 1%;
+}
+.card h1 {
+    font-size: 1.4em;
+    margin-left: 1.5em;
+    margin-top: 1em;
+}
+.card p {
+    font-size: 1em;
+    margin-left: 1.65em;
+    margin-right: 1.65em;
+    width: fit-content;
+}
+.card {
+    text-align: left; /* Aligns the content to the left */
+    background-color: rgba(255, 255, 255, 0.3); /* Gives a white background with 50% transparency */
+    border: 2px solid white; /* Adds a white border */
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    width: 60%;
+    border-radius: 13px;
+}
+#right {
+    left: 67%;
+    height: fit-content;
+    margin-right: 20%;
+}
+.image {
+    width: 70%;
+    height: 70%;
+    padding-left: 10%;
+    padding-bottom: 1.5%;
+}
+#edit p {
+    display: inline;
+    margin-right: 10px;
+}
+#edit {
+    margin-top: 2%;
+}
+#otherOptionsStart {
+    font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-left: 5%;
+}
+.otherOptions {
+    position: relative;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    width: auto;
+    border-radius: 25px;
+    font-size: medium;
+    z-index: 1;
+    left: 5%;
+    top: 10%;
+    margin-bottom: 1%;
+    font: inherit;
+    padding: 0.2em;
+    width: 10%;
+    font-weight: 600;
+    margin-right: 2%;
+}
+#yellow {
+    background-color: rgb(253, 165, 0);
+}
+.cards {
+    text-align: left; 
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    width: 30%;
+    border-radius: 25px;
+}
+.cards h1 {
+    font-size: 1.4em;
+    margin-top: 10%;
+    margin-left: 1.5em;
+}
+.cards p {
+    font-size: 1em;
+    margin-left: 1.65em;
+    margin-right: 1.65em;
+    width: fit-content;
+}
+.cards .link {
+    position: relative;
+    top: 23%;
+    left: 5%;
+    font-size: 0.8em;
+    padding: 0.6em;
+    width: 10%;
+    font-weight: 600;
+    color: black;
+    &:focus {
+        outline: 0;
+    }
+}
+#red {
+    background-color: rgb(253, 0, 0);
+    color: white;
+    left: 35%;
+}
+#grey {
+    background-color: rgb(206, 206, 206);
+    left: 66%;
+}

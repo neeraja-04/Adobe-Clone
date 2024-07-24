@@ -1,0 +1,84 @@
+body {
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+}
+.logo {
+    margin-right: 10px;
+    display: inline;
+}
+.signin {
+    display: inline;
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+}
+.brand-image {
+    display: block;
+    width: 2.1em;
+    height: 2.1em;
+    margin-left: auto;
+margin-right: auto;
+}
+.blue {
+    display: inline;
+    color: blue;
+}
+.continue {
+    display: inline;
+    text-align: center;
+}
+.choose {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.user-button {
+display: flex;
+width: 90%;
+align-items: center;
+padding: 10px;
+border: none;
+border-bottom: 1px solid rgb(173, 173, 173);
+background: transparent;
+}
+.user-button img {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-right: 10px;
+}
+
+.user-info {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.user-name {
+font-size: 15px;
+
+}
+
+.user-email {
+font-size: 14px;
+color: #8d8d8d;
+}
+table {
+width: 35%;
+height: 50%;
+border: 1px solid #bbbbbb; 
+border-radius: 25px;
+margin: auto;
+padding: 2.5em 1.5em 4em 2em;
+}
+.disclaimer {
+margin-top: 15%;
+font-size: 15px;
+color: #8d8d8d;
+}
+.signin {
+display: inline;
+font-size: 15px;
+font-weight: 500;
+color: gray;
+margin-top: -10px; 
+}

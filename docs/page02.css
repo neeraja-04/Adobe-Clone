@@ -1,0 +1,112 @@
+body {
+    font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+    display: flex;
+    font-style: normal;
+    background-image: url(https://auth.services.adobe.com/img/canvas/Fotolia_200977622_XL.jpg);
+    background-size: cover;
+    background-position: 10% 12.5%;
+    overflow: hidden;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.Signin_page{
+    position: relative; 
+    z-index: 1; 
+}
+.Emailid {
+    display: block;
+    padding-top: 2.5em;
+    font-size: 75%;
+    color: rgb(97, 97, 97);
+}
+#Emailid {
+    width: 90%;
+    border: 0;
+    z-index: 1;
+    background-color: transparent;
+    border-bottom: 1px solid #eee; 
+    padding: 0.5em 0em 0.5em 0em;
+    &:focus, &:valid {
+        outline: 0;
+        border-bottom-color: rgb(211, 211, 211);
+    }
+}
+.newuser {
+    display: inline;
+}
+.button {
+    display: block;
+    font: inherit;
+    border-radius: 50rem;
+    margin : 1em;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    border-color: rgb(211, 211, 211);
+    border-width: 0.1em;
+    &:focus {
+        outline: 0;
+    }
+}
+#submit {
+    background-color: #1473e6;
+    border-color: #1473e6;
+    color: #fff;
+    font-size: .875rem;
+    width: 20%;
+    font-weight: 500;
+    margin: 1.5em 0em 1em 0em;
+    padding: 0.5em 0em 0.5em 0em;
+}
+button.button{
+    font : inherit;
+    font-weight: 500;
+    color: rgb(70, 68, 68);
+    width: 80%;
+    padding: 1em 0em 1em 0em;
+    background-color: white;
+}
+#signin{
+    margin-top: 0;
+}
+#right {
+    background-color: white;
+    border-radius: 0.25em;
+    padding: 2.5em 1.5em 4em 4em;
+    margin: 1% 10% 10% 10%;
+    flex:1;
+}
+.logo {
+    width: 10%;
+    margin: 2em 0em 2em 0em;
+}
+#left p{
+    color: white;
+    font-size: 1.25em;
+    margin: 0em 0em 0em 0em;
+}
+#left {
+    flex:1;
+    padding-left: 10%;
+    padding-top: 17.5em;
+}
+.brand-image {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    vertical-align: middle;
+}
+.brand-label {
+    flex-shrink: 0;
+    margin: 0 0 0 0.5em;
+    font-weight: 650;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+}
